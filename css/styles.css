@@ -1,0 +1,127 @@
+:root {
+    --brand-color: #4D5AE5;
+    --pressed-state-color: #404BBF;
+    --dark-color: #2E2F42;
+    --success-color: #31D0AA;
+    --text-color: #434455;
+    --subtle-text-color: #8E8F99;
+    --accent-color: #E7E9FC;
+    --light-color: #F4F4FD;
+    --modal-background-color: #FCFCFC;
+    --white-color: #fff;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--text-color);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+
+ul {
+    list-style: none;
+}
+
+.logo {
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    letter-spacing: 0.36px;
+    line-height: 1.5;    
+}
+
+.logo-top {
+    color: var(--dark-color);
+}
+
+.logo-web {
+    color: var(--brand-color);
+}
+
+.main-menu a {
+    color: var(--dark-color);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+
+.main-menu a:hover {
+    color: var(--pressed-state-color);
+}
+
+.contact-menu a {
+    color: var(--text-color);
+    text-decoration: none;
+    font-style: normal;
+}
+
+.contact-menu a:hover {
+    color: var(--pressed-state-color);
+}
+
+.hero {
+    background-color: var(--dark-color);
+}
+
+.main-header {
+    color: var(--white-color);
+    font-weight: 700;
+    font-size: 56px;
+    letter-spacing: 1.12px;
+    line-height: 1.07;
+}
+
+.default-button {
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    font-weight: 500; 
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: inherit;
+    letter-spacing: 0.64px;
+    color: var(--brand-color);
+    background-color: var(--light-color);
+}
+
+.default-button:hover {
+    color: var(--white-color);
+    background-color: var(--pressed-state-color);
+}
+
+.active-button {
+    color: var(--white-color);
+    background-color: var(--brand-color);
+}
+
+.team-section {
+    background-color: var(--light-color);
+}
+
+.section-header {
+    color: var(--dark-color);
+    font-weight: 700;
+    font-size: 36px;
+    letter-spacing: 0.72px;
+}
+
+.card-header {
+    color: var(--dark-color);
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.4px;
+}
+
+.footer {
+    color: var(--white-color);
+    background-color: var(--dark-color);
+}
+
+.logo-footer {
+    color: var(--white-color);
+}
+
