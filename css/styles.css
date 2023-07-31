@@ -177,7 +177,8 @@ main>.section:nth-child(2) {
 }
 
 .list {
-display: flex;
+    display: flex;
+    justify-content: center;
     gap: 24px;
 }
 
