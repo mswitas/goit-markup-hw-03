@@ -56,6 +56,7 @@ ul {
 .container {
     width: 1158px;
     margin-inline: auto;
+    padding: 0 15px;
 }
 
 .section {
@@ -145,6 +146,7 @@ main>.section:nth-child(3) {
 .hero {
     background-color: var(--dark-color);
     text-align: center;
+    padding: 188px 0;
 }
 
 .main-header {
@@ -232,6 +234,7 @@ main>.section:nth-child(3) {
 .footer {
     color: var(--white-color);
     background-color: var(--dark-color);
+    padding: 100px 0;
 }
 
 .footer p {
@@ -241,10 +244,10 @@ main>.section:nth-child(3) {
 .logo-footer {
     color: var(--white-color);
     margin-bottom: 17.5px;
+    display: block;
 }
 
 .filter-menu {
-    margin-top: 96px;
     margin-bottom: 72px;
     display: flex;
     justify-content: center;
@@ -253,7 +256,7 @@ main>.section:nth-child(3) {
 }
 
 .portfolio-section {
-    padding-top: 0;
+    padding-top: 96px;
 }
 
 .portfolio-button {
@@ -263,7 +266,7 @@ main>.section:nth-child(3) {
 .portfolio-card-set {
     display: flex;
     flex-wrap: wrap;
-    gap: 24px;
+    gap: 48px 24px;
 }
 
 .portfolio-item {
@@ -277,9 +280,6 @@ main>.section:nth-child(3) {
 
 .portfolio-card-description {
     padding: 32px 16px;
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
     border-bottom: 1px solid var(--accent-color);
     border-left: 1px solid var(--accent-color);
     border-right: 1px solid var(--accent-color);
